@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#container {
+  width: 900px;
+  min-height: 900px;
+  float: left;
+  margin: 15px 35px;
+}
+#states path {
+  /* fill: #c3d8f8e0; */
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+/* #states path:hover{
+	fill: #ddffdd;
+} */
+
+/* #states .active {
+	fill: #C1A0DC;
+}
+
+#states .activeDetail {
+	fill: #fae6c2;
+} */
+
+#states path {
+  cursor: pointer;
+}
+
+#states text {
+  cursor: pointer;
+  font-size: 12px;
+  fill: #000000;
+}
+
+#states .background {
+  fill: #ffffff; /* 흰색으로 배경 설정 */
+}
+
+.tooltip {
+  position: absolute;
+  padding: 7px;
+  background-color: white;
+  border: 1px solid #fa6057;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  opacity: 1;
+  border-radius: 8px;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -23px;
+  transform: translateY(-50%);
+  border-width: 11px;
+  border-style: solid;
+  border-color: transparent #fa6057 transparent transparent;
+  
+}
