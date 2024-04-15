@@ -5,3 +5,5 @@
 3. 시도별 쉼터 개수를 이용해 지도 배경색 표현
 4. 공공 데이터 속 위,경도를 이용해 쉼터 위치 marker 이미지로 표시
 5. marker 클릭 시 해당 쉼터 정보 툴팁으로 표시
+
+https://myhappyman.tistory.com/97#google_vignette
